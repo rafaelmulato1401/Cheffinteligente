@@ -1,4 +1,4 @@
-# 🍽️ Receitas AI — Chef Inteligente
+# 🍽️ CheffInteligente — CheffInteligente
 
 App de receitas com IA que sugere pratos com base nos ingredientes disponíveis.
 
@@ -24,7 +24,7 @@ git init
 git add .
 git commit -m "primeiro commit"
 git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/receitas-ai.git
+git remote add origin https://github.com/SEU_USUARIO/cheffinteligente.git
 git push -u origin main
 ```
 
@@ -32,7 +32,7 @@ git push -u origin main
 
 1. Acesse https://vercel.com e faça login com sua conta GitHub
 2. Clique em **"Add New Project"**
-3. Selecione o repositório `receitas-ai`
+3. Selecione o repositório `cheffinteligente`
 4. Configurações:
    - **Framework Preset:** Vite
    - **Build Command:** `npm run build`
@@ -40,7 +40,7 @@ git push -u origin main
 5. Clique em **Deploy** ✅
 
 Pronto! Em ~1 minuto seu app estará em um link público como:
-`https://receitas-ai.vercel.app`
+`https://cheffinteligente.vercel.app`
 
 ---
 

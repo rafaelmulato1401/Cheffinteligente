@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["icons/*.png", "icons/*.svg", "icons/*.ico"],
       manifest: {
-        name: "Receitas AI - Chef Inteligente",
-        short_name: "Receitas AI",
+        name: "CheffInteligente",
+        short_name: "CheffInteligente",
         description: "Descubra receitas com os ingredientes que você tem em casa",
         theme_color: "#0f0e0c",
         background_color: "#0f0e0c",

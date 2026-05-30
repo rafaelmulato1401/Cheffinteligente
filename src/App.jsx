@@ -200,7 +200,7 @@ Formato:
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div>
             <p style={{ margin: 0, fontSize: 10, letterSpacing: 3, textTransform: "uppercase", color: C.accent, fontFamily: "monospace" }}>
-              ✦ Chef Inteligente
+              ✦ CheffInteligente
             </p>
             <h1 style={{ margin: "2px 0 0", fontSize: 22, fontWeight: "normal", lineHeight: 1.2 }}>
               O que tem na <span style={{ color: C.accent }}>geladeira?</span>
