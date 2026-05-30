@@ -95,7 +95,7 @@ export default function ReceitasAI() {
 
     const cat = CATEGORIAS.find((c) => c.id === categoria);
     try {
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
+      const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -139,7 +139,7 @@ O campo "emoji" deve ser um emoji que represente bem cada receita.`,
     if (detalhes[index]) return;
     setLoadingDetalhe(index);
     try {
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
+      const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
